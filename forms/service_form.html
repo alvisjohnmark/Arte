@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Form</title>
+    <link rel="stylesheet" href="../css/service_form.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Letter Writing</h1>
+    </div>
+    <div class="container">
+        <div class="box-form">
+            <div class="left-side">
+                <h2>Receiver's Name:</h2>
+                <p>*Who will be receiving the delivery</p>
+                <div class="input-box">
+                    <label for="fname">First Name</label>
+                        <input type="text">
+                        <label for="lname">Last Name</label>
+                    <input type="text">
+                </div>
+                    <h2>Receiver's Contact Number:</h2>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                    <h2>Receivers Address:</h2>
+                <div class="input-box">
+                    <label for="ad1">Address 1</label>
+                        <input type="text">
+                            <br>
+                        <label for="ad1">Address 2</label>
+                    <input type="text">
+                </div>
+                <div class="input-box">
+                    <label for="ad1">City</label>
+                        <input class = "address"  type="text">
+                        <label for="ad2">Province</label>
+                    <input class = "address" type="text">
+                </div>
+                <div class="input-box">
+                    <label for="zip">Zip/Postal Code</label>
+                    <input type="text">
+                </div>
+
+                <h2>Envelope*</h2>
+                <p>What would you like to be placed on the envelope? *maximum of 10 words *receiver's name or a sweet phrase</p>
+                <div class="input-box">
+                    <input class="envelope" type="text">
+                </div>
+
+                <h2>Letter Date</h2>
+                <p>What date would you like to be placed on the letter?</p>
+                <div class="input-box">
+                    <input style="width:100%;" type="date">
+                </div>
+            </div>
+
+            <div class="right-side">
+                <h2>Letter and Salutation & Signature*</h2>
+                <p>Salutation: Dear Sis, Dearest Love, etc. Signature: All my love, Molly; Always and forever, Poppy; etc.</p>
+                <div class="input-box">
+                    <textarea name="salutation" id="salutaion" cols="50" rows="5"></textarea>
+                </div>
+                <h2>Letter Content*</h2>
+                <p>What will your letter say? Maximum of 300 words. Additional words will be charged accordingly. </p>
+                <div class="input-box">
+                    <textarea name="letter-content" id="letter-content" cols="50" rows="5"></textarea>
+                </div>
+                <h2>Delivery Fee*</h2>
+                <p>We ship out letters every Tuesday/Wednesday only. Fully paid orders before Saturday 11:59pm PST will be part of this batch. Holidays excluded.
+                </p>
+                <div class="input-box">
+                   <input type="text">
+                    </select>
+                </div>
+                <h2>Instagram Username*</h2>
+                <p> Indicate for easier communication (optional).</p>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+                <h2>Special Instructions*</h2>
+                <p>With a fee, we can make your letter even more special. Would you want your letter to be delivered on a specific day? Would you like to add a gift in the package to be delivered? Just let us know if you have any special requests or instructions. ~
+                    Payment options include PayPal, Philippine bank fund transfer (BDO  and GCash).
+                   </p>
+                <div class="input-box">
+                    <label for="payment">Choose payment:</label>
+                    <select name="payment" id="payment">
+                        <option value="Gcash">Gcash</option>
+                        <option value="BDO">BDO</option>
+                        <option value="Paymaya">Paymaya</option>
+                        <option value="Paypal">Paypal</option>
+                    </select>
+                </div>
+                <h2>Conforme*</h2>
+                <p>Without disclosing any personal information, do you give us permission to share a part of your letter or the process of making this in our social media accounts?</p>
+                <div class="input-box">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+            
+    </footer>
+</body>
+</html>
