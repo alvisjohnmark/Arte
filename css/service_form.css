@@ -19,14 +19,15 @@ body{
     font-family: var(--font-style-three);
 }
 h2{
-    padding: 20px 50px 0 50px;
+    padding: 20px 50px 5px 50px;
 }
 p{
     padding: 0 50px 20px 50px;
+    font-size: 15px;
 }
 
 label{
-    padding: 20px 0 20px 10px   px;
+    padding: 0 0 20px 0  ;
 }
 
 input[type=text]{
@@ -55,8 +56,8 @@ input[type=text]{
 }
 
 .input-box{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 75px;
+    padding-right: 50px;
 }
 
 .left-side{
