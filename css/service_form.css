@@ -51,8 +51,9 @@ input[type=text]{
 .box-form{
     display: flex;
     width: 1200px;
-    height: 1000px;
+    height: 1050px;
     background-color: var(--primary-color);
+    border-radius: 50px;
 }
 
 .input-box{
